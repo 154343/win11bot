@@ -1,0 +1,11 @@
+HTTP/2 200
+date: Fri, 10 Dec 2021 20:17:27 GMT
+server: Apache/2.4.51 (Unix)
+x-powered-by: PHP/7.4.26
+expires: Thu, 19 Nov 1981 08:52:00 GMT
+cache-control: no-store, no-cache, must-revalidate
+pragma: no-cache
+p3p: CP="ALL DSP NID CURa ADMa DEVa HISa OTPa OUR NOR NAV DEM"
+link: ; rel="https://api.w.org/", ; rel="alternate"; type="application/json", ; rel=shortlink
+content-type: text/html; charset=UTF-8
+set-cookie: PHPSESSID=9njcgmugkul1urrvlafug6ticf; path=/
