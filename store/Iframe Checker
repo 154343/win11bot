@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.tinywebgallery.com/blog/#website",
+      "url": "https://www.tinywebgallery.com/blog/",
+      "name": "TinyWebGallery Blog",
+      "description": "Blog of Advanced iFrame, TinyWebGallery, JF Uploader, TFU",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://www.tinywebgallery.com/blog/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.tinywebgallery.com/blog/#organization",
+      "name": "TinyWebGallery",
+      "url": "https://www.tinywebgallery.com/blog/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker#breadcrumblist",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.tinywebgallery.com/blog/#listItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.tinywebgallery.com/blog/",
+            "name": "Home",
+            "description": "News for TinyWebGallery, the best image gallery and also home for the Joomla JFUploader, TWG Flash Uploader and the Wordpress flash uploader and advanced iframe",
+            "url": "https://www.tinywebgallery.com/blog/"
+          },
+          "nextItem": "https://www.tinywebgallery.com/blog/advanced-iframe#listItem"
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.tinywebgallery.com/blog/advanced-iframe#listItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.tinywebgallery.com/blog/advanced-iframe",
+            "name": "Advanced iFrame",
+            "description": "The advanced iframe (pro) is the most advanced iframe plugin for WordPress and also available as a standalone version. So why using this iframe plugin? There are many wrappers around but they all only do an include with no interaction with the main page and include the iframe like the original which most of the ... [Read more...]",
+            "url": "https://www.tinywebgallery.com/blog/advanced-iframe"
+          },
+          "nextItem": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker#listItem",
+          "previousItem": "https://www.tinywebgallery.com/blog/#listItem"
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker#listItem",
+          "position": 3,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker",
+            "name": "Free iframe checker v3.0",
+            "description": "This little app checks if the page you want to include can be included into an iframe. The check is valid for the free AND the pro version! Please note that http pages cannot be included into https pages anymore directly. See the blog here. It downloads the headers of the page and checks the ... [Read more...]",
+            "url": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker"
+          },
+          "previousItem": "https://www.tinywebgallery.com/blog/advanced-iframe#listItem"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker#webpage",
+      "url": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker",
+      "name": "Free iframe checker v3.0 | TinyWebGallery Blog",
+      "description": "This little app checks if the page you want to include can be included into an iframe. The check is valid for the free AND the pro version! Please note that http pages cannot be included into https pages anymore directly. See the blog here. It downloads the headers of the page and checks the ... [Read more...]",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.tinywebgallery.com/blog/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker#breadcrumblist"
+      },
+      "datePublished": "2013-03-12T16:44:24+00:00",
+      "dateModified": "2020-10-21T16:56:47+00:00"
+    }
+  ]
+}
