@@ -420,5 +420,20 @@
       "desc": "A clicker game for nerds",
       "feat": "A clicker game for nerds"
     }
+  },
+  {
+    "name": "Spider",
+    "icon": "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/spider-head.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rededge967.github.io/Spider-Man",
+      "gallery": [
+        "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/standing.png"
+      ],
+      "desc": "Your friendly neighbourhood Spiderman ...",
+      "feat": "1. Jump and shoot.\n2. Progress",
+      "invert": true
+    }
   }
 ]
