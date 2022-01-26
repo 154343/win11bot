@@ -453,3 +453,184 @@
     }
   }
 ]
+{
+  "#comment": "",
+  "html": {
+    "head": {
+      "meta": [
+        {
+          "@charset": "utf-8"
+        },
+        {
+          "@http-equiv": "X-UA-Compatible",
+          "@content": "IE=edge"
+        }
+      ],
+      "title": "Rocket League 2d",
+      "link": {
+        "@rel": "stylesheet",
+        "@href": "css/main.css"
+      },
+      "script": [
+        {
+          "@src": "https://code.jquery.com/jquery-2.2.3.js",
+          "@integrity": "sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=",
+          "@crossorigin": "anonymous"
+        },
+        {
+          "@src": "https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"
+        }
+      ]
+    },
+    "body": {
+      "audio": [
+        {
+          "@src": "assets/goal_impact.ogg",
+          "@class": "goal-impact"
+        },
+        {
+          "@src": "assets/goal_horn.ogg",
+          "@class": "goal-horn"
+        },
+        {
+          "@src": "assets/ball-hit.ogg",
+          "@class": "ball-hit"
+        },
+        {
+          "@src": "assets/two-minute-warning.ogg",
+          "@class": "two-minute-warning"
+        },
+        {
+          "@src": "assets/timer-running-out.ogg",
+          "@class": "timer-running-out"
+        },
+        {
+          "@src": "assets/game-over.ogg",
+          "@class": "game-over"
+        }
+      ],
+      "#comment": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "div": [
+        {
+          "div": {
+            "@class": "center",
+            "div": [
+              {
+                "@class": "scoreboard orange"
+              },
+              {
+                "@class": "spacer"
+              },
+              {
+                "@class": "logo-timer",
+                "img": [
+                  {
+                    "@class": "logo",
+                    "@src": "assets/rocket-league-header.png",
+                    "@alt": ""
+                  },
+                  {
+                    "@class": "twod-logo",
+                    "@src": "assets/2d_white1.png",
+                    "@alt": ""
+                  }
+                ]
+              },
+              {
+                "@class": "spacer"
+              },
+              {
+                "@class": "scoreboard blue"
+              }
+            ]
+          }
+        },
+        {
+          "@class": "start-button",
+          "#text": "Start Match"
+        },
+        {
+          "@class": "instructions",
+          "div": [
+            {
+              "@class": "controls",
+              "#text": "Controls"
+            },
+            {
+              "@id": "control-diagram",
+              "div": [
+                {
+                  "@class": "car-image",
+                  "img": {
+                    "@src": "assets/Car_orange.png",
+                    "@alt": ""
+                  }
+                },
+                {
+                  "@id": "orange-controls",
+                  "p": [
+                    "W",
+                    "S",
+                    "A",
+                    "D"
+                  ]
+                },
+                {
+                  "@id": "controls-text",
+                  "p": [
+                    "Accelerate",
+                    "Brake/Reverse",
+                    "Turn Left",
+                    "Turn Right"
+                  ]
+                },
+                {
+                  "@id": "blue-controls",
+                  "p": [
+                    "↑",
+                    "↓",
+                    "←",
+                    "→"
+                  ]
+                },
+                {
+                  "@class": "car-image",
+                  "img": {
+                    "@src": "assets/Car_blue.png",
+                    "@alt": ""
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@class": "game-over hidden",
+          "div": {
+            "@class": "winner-announce"
+          },
+          "button": {
+            "@class": "play-again",
+            "#text": "Play Again?"
+          }
+        }
+      ],
+      "script": [
+        {
+          "@src": "js/main.js"
+        },
+        {
+          "@src": "js/collisions.js"
+        },
+        {
+          "@src": "js/car_wall_collision.js"
+        }
+      ]
+    }
+  }
+}
