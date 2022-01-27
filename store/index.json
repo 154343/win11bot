@@ -1,4 +1,18 @@
-[
+[{
+    "name": "Visual Studio Code",
+    "icon": "https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/icon/code.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://vscode.dev",
+      "invert": true,
+      "gallery": [
+        "https://code.visualstudio.com/assets/home/home-screenshot-win.png"
+      ],
+      "desc": "Visual Studio Code is a free, lightweight, and extensible code editor for building web, desktop, and mobile applications, using any programming language and framework.\nVisual Studio Code has built-in support for Git source control management and powerful integrations with GitHub, an integrated debugger, and smart code completion with IntelliSense and with Al-driven IntelliCode. With over 30,000 extensions and themes in the Visual Studio Code Marketplace, you can customize the features and the look of Visual Studio Code to fit your needs, preferences, and style.\nYou can use Visual Studio Code to build any kind of app, for web, desktop, and mobile. Visual Studio Code supports JavaScript and TypeScript natively and offers extensions for coding in languages such as Python, Java, C/C++, C#, Go, Rust, PHP, and many more.",
+      "feat": "Fast, Powerful Editing-Linting, multi-cursor editing, parameter hints, and other powerful editing features.\nOver 30,000 extensions, and growing - Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.\nBuild any app type, using any programming language and framework, including JavaScript and TypeScript, Python, Java, C/C++, C#, Go, Rust, PHP, and many more, as well as many popular technologies.\nSupport for notebooks including Jupyter, for data science and Al development.\nBuilt-in support for Git source control management and integrations with GitHub for managing issues and pull requests.\nIntelligent Code Completion - IntelliSense and Al-driven IntelliCode offer completions for variables, methods, and imported modules.\nRich Debugging-Print debugging is a thing of the past. Use debugging tools directly in VS Code.\nWrite code from anywhere with the Visual Studio Code Remote extensions and support for GitHub Codespaces."
+    }
+  },
   {
     "name": "Minecraft",
     "icon": "https://raw.githubusercontent.com/andrewstech/windows11-1/master/public/img/icon/minecraft.png",
@@ -16,20 +30,69 @@
     }
   },
   {
-    "name": "DieBug",
-    "icon": "https://img.itch.zone/aW1nLzc1MjYzNjcucG5n/105x83%23/4Nr3ep.png",
-    "type": "game",
+    "name": "windows96",
+    "icon": "https://i.redd.it/kksrotgwyya61.png",
+    "type": "app",
     "data": {
       "type": "IFrame",
-      "url": "https://v6p9d9t4.ssl.hwcdn.net/html/4867546/webglbuild/index.html",
+      "url": "https://windows96.net/",
       "gallery": [
-        "https://img.itch.zone/aW1hZ2UvMTI4NDgzNy83NTY3NjMzLnBuZw==/original/yn5K69.png",
-        "https://img.itch.zone/aW1nLzc1MjYzNjcucG5n/315x250%23c/Onbnj0.png",
-        "https://img.itch.zone/aW1hZ2UvMTI4NDgzNy83NTY3NjM0LnBuZw==/original/heDnwK.png",
-        "https://img.itch.zone/aW1hZ2UvMTI4NDgzNy83NTY3NjM4LnBuZw==/original/5dZsnL.png"
+        "https://static.wikia.nocookie.net/windows/images/8/80/W98-2.png/revision/latest?cb=20191005212338",
+        "https://www.extremetech.com/wp-content/uploads/2017/02/win98-640x353.jpg",
+        "https://support.brother.com/g/b/img/faqend/faqh00000051_000/gb/en/5425/faqh000051_05.jpg"
       ],
-      "desc": "The world of Christmas was a peaceful place. Until one day a meteor struck. From the meteor spawned strange alien nanites.\nSave the Christmas world by defeating the leader and source of the infestation.",
-      "feat": "WASD to move\nSpacebar to shoot\nLeft Shift to dash\nM to open the minimap"
+      "desc": "Windows 96 recreation",
+      "feat": "The os older then your mother."
+    }
+  },
+  {
+    "name": "Python Compiler",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://www.programiz.com/python-programming/online-compiler/",
+      "gallery": [
+        "https://cdn.programiz.com/cdn/farfuture/IwFGGPqycIxTfzLl7mPdcaqUaircnStXfipaHd4EBik/mtime:1605833048/sites/all/themes/programiz/assets/compiler.png",
+        "https://www.programiz.com/blog/content/images/2020/07/programiz-online-compiler.png"
+
+      ],
+      "desc": "Compile Python"
+
+
+    }
+  },
+  {
+    "name": "Google Cricket",
+    "icon": "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://doodlecricket.github.io/#/",
+      "gallery": [
+        "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
+        "https://www.google.com/logos/doodles/2017/icc-champions-trophy-2017-begins-5642111205507072.6-lawcta.gif",
+        "https://i.ytimg.com/vi/Ud9Ts_NYAjQ/maxresdefault.jpg"
+      ],
+      "desc": "Playing Cricket in online",
+      "feat": "virtual cricket"
+
+    }
+  },
+  {
+    "name": "Excel",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://win.asylum-os.com/data/excel.html",
+      "gallery": [
+        "https://www.techrepublic.com/a/hub/i/r/2019/05/31/b9b3ae1d-6799-4118-8bcf-2bc3747c018f/resize/1200x/04c6599c3bc58330bd3350dd77984274/figure-b.jpg",
+        "https://www.smartsheet.com/sites/default/files/IC-how-to-make-spreadsheet-11%20copy.jpg",
+        "https://www.techrepublic.com/a/hub/i/r/2021/05/17/0fda89a7-51a1-4ef2-9c66-d492f21b4254/resize/1200x/89b7448d974ce30168eb278f5230b2a4/excel-spreadsheet.jpg"
+      ],
+      "desc": "Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation, graphing tools, pivot tables",
+      "feat": "graphing tools"
     }
   },
   {
@@ -66,7 +129,7 @@
   },
   {
     "name": "Smash karts",
-    "icon": "https://trefoilkingdom.com/uploads/games/42122/Smash-Karts.jpg",
+    "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
     "type": "game",
     "data": {
       "type": "IFrame",
@@ -293,9 +356,100 @@
       "gallery": [
         "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/img/invkin.png",
         "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/img/bezcrv.png"
+      ]
+    }
+  },
+  {
+    "name": "HexGL",
+    "icon": "https://hexgl.bkcore.com/image.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://hexgl.bkcore.com/play/",
+      "gallery": [
+        "https://lh6.ggpht.com/XHZFQMr3IcrX2LEDvxG6olkEVZXrHUS6Qn7LXxPlZkRLTOIMIU1ndoaTc3meZUepka5COLXL7zoS1KqC0uo0IrRaZnUEUd2qTbg"
       ],
-      "desc": "Play with different simulations and experiments",
-      "feat": "play and learn"
+      "desc": "HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.",
+      "feat": ""
+    }
+  },
+  {
+    "name": "X Trench Run",
+    "icon": "https://gameforge.com/de-DE/littlegames/includes/images/games/7057_5eb3e9a3795fd.jpg",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://d2yh0uqycmhzn9.cloudfront.net/en/x-trench-run/index.html?token=hc8j1DOq1591613358sfaNwz7pYSNRJcAg",
+      "gallery": [
+        "https://i.ytimg.com/vi/R0zAkJMbTpU/mqdefault.jpg",
+        "https://image.yaksgames.com/v2/game/4/1/b/jBaV0W2p2DZLJHp72OSYPNqeYlIOru3QNbcYIj51.jpeg",
+        "https://avatars.mds.yandex.net/get-games/1881364/2a0000016ce14641340667b8d7ad3a2eb747/default526x314"
+      ],
+      "desc": "Shoot down turrets as you fly through the trench avoiding any and all obstacles in this epic 3D space flying game.",
+      "feat": "A cool game"
+    }
+  },
+  {
+    "name": "osu!",
+    "icon": "https://i.ibb.co/k6GWsJn/download.jpg",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://webosu.online/",
+      "gallery": [
+        "https://gamefaqs.gamespot.com/a/screen/full/4/0/0/919400.jpg",
+        "https://i.ibb.co/xhfLhWs/Screenshot-2022-01-16-2-16-18-PM.png",
+        "https://www.taminggaming.com/cms/graphics/screen_shot_3459.jpeg"
+      ],
+      "desc": "osu!, is a fun free-to-play rhythm game",
+      "feat": "fun game with alot of beatmaps"
+    }
+  },
+  {
+    "name": "Dash Clicker",
+    "icon": "https://i.ibb.co/bBh4kYJ/71b457bd-14f4-4768-b34b-c9097fc94ad8.jpg",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://dashclicker.com/",
+      "gallery": [
+        "https://raw.githubusercontent.com/armn/Dashclicker/master/src/assets/images/screenshot.png",
+        "https://preview.redd.it/qq3wou3zpcp71.png?width=1366&format=png&auto=webp&s=418ba40fba2f64f5b5ab84be23fdbfec86749528",
+        "https://i.redd.it/xnrak7gpfds31.png"
+      ],
+      "desc": "A clicker game for nerds",
+      "feat": "A clicker game for nerds"
+    }
+  },
+  {
+    "name": "Spider",
+    "icon": "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/spider-head.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rededge967.github.io/Spider-Man",
+      "gallery": [
+        "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/standing.png"
+      ],
+      "desc": "Your friendly neighbourhood Spiderman ...",
+      "feat": "1. Jump and shoot.\n2. Progress",
+      "invert": true
+    }
+  },
+  {
+    "name": "Scratch",
+    "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://llk.github.io/scratch-gui/master/",
+      "gallery": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoPckz603CcUVyrUwDAX04l7OXMpKZQXI4QUr9P5_UMas37EMmrSUNn9JgK5Yzz0R8Kw&usqp=CAU",
+        "https://www.researchgate.net/profile/Robert-Morris-5/publication/228389474/figure/fig2/AS:393642368880642@1470863062228/A-screenshot-of-the-Scratch-programming-blocks.png",
+        "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png?w=430&h=230&crop=1"
+      ],
+      "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8–16 as an educational tool for programming. ",
+      "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
     }
   }
 ]
